@@ -1,0 +1,142 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar {
+    background-color: white;
+    height: 55px;
+    border-radius: 50px;
+}
+
+.left-box p {
+    font-size: 24px;
+    padding: 12px 0px 0px 0px;
+    color: rgb(55, 21, 86);
+    cursor: default;
+}
+
+.middle-box li {
+    list-style: none;
+}
+
+.middle-box li a {
+    text-decoration: none;
+    color:  rgb(48, 13, 82);
+    transition: all 0.2s ease;
+}
+
+.middle-box li a:hover {
+    color: grey;
+    transition: all 0.2s ease;
+}
+
+.right-box {
+    display: flex;
+    align-items: center;
+
+}
+
+.login-btn {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(244, 246, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: none;
+    color:  rgb(48, 13, 82);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.login-btn:hover {
+    background-color: rgb(243, 238, 238);
+}
+
+.selling-cta-btn {
+    width: 80px;
+    background-color: rgb(53, 3, 97);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    height: 30px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.selling-cta-btn:hover {
+    background-color: rgb(41, 3, 74);
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    color: rgb(41, 3, 74);
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-content p {
+    color: rgb(41, 3, 74);
+    font-family: "Roboto", sans-serif;
+}
+
+.input-container {
+    background-color: white;
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.store-svg svg {
+    fill: rgb(244, 6, 145);
+    margin-left: 15px;
+}
+
+.input-container input {
+    border: none;
+    outline: none;
+}
+
+.arrow-svg {
+    background-color: rgb(244, 6, 145);
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow-svg svg {
+    fill: white;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-image: url(https://images.unsplash.com/photo-1723443956765-fdc2100ec80e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8M2QlMjBtb25leSUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+
+
+    .middle-box li {
+        display: none;
+    }
+
+    .right-box {
+        gap: 10px;
+    }
+
+    .input-container {
+       width: 85%;
+        font-size: 12px;
+    }
+}
